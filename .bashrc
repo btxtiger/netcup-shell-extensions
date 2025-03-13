@@ -35,8 +35,8 @@ fi
 export PATH="$PATH:~/bin/"
 
 # Create symlink to httpdocs
-if [ ! -h ~/html ]; then
-	ln -s /httpdocs html
+if [ ! -h ~/www ]; then
+	ln -s /www www
 fi
 
 # Load aliases
